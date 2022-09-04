@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Header from "../../components/Header";
 import { GetStaticProps, NextPage } from "next";
-import { getProjectsList, Project } from "../../utils/projectUtils";
+import { getProjectsList, ProjectInfo } from "../../utils/projectUtils";
 import ProjectsNav from "../../components/ProjectsNav";
 
 export const getStaticProps: GetStaticProps = () => {
@@ -14,7 +14,7 @@ export const getStaticProps: GetStaticProps = () => {
 };
 
 interface Props {
-  articleList: Project[];
+  articleList: ProjectInfo[];
 }
 
 const ProjectsHome: NextPage<Props> = ({ articleList }) => {
@@ -32,7 +32,9 @@ const ProjectsHome: NextPage<Props> = ({ articleList }) => {
         <div className="row">
           <ProjectsNav articleList={articleList} />
 
-          <article>{/* INTRO TO PROJECTS */}</article>
+          <article className="col-9 px-5">
+            This is an introduction to my projects - a bit about me, a word on the journey.
+          </article>
         </div>
       </main>
     </div>
