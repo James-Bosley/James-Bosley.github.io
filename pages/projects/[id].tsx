@@ -9,6 +9,7 @@ import {
   getProjectPaths,
 } from "../../utils/projectUtils";
 import ProjectsNav from "../../components/ProjectsNav";
+import { useEffect, useRef } from "react";
 
 export const getStaticPaths: GetStaticPaths = () => {
   const paths = getProjectPaths();
@@ -35,6 +36,19 @@ interface Props {
 }
 
 const ProjectsHome: NextPage<Props> = ({ articleList, article }) => {
+  // Adds custom classes and attributes to links (anchor tags) parsed in markdown file.
+  useEffect(() => {
+    const links = document.getElementsByTagName("a");
+    for (let link of links) {
+      if (link.getAttribute("href") && link.href.includes("#link-info")) {
+        const href = link.getAttribute("href") || "";
+        link.classList.add("link-info");
+        link.setAttribute("href", href.replace(/#link-info/, ""));
+        link.setAttribute("target", "_blank");
+      }
+    }
+  }, []);
+
   return (
     <div>
       <Head>
@@ -44,7 +58,7 @@ const ProjectsHome: NextPage<Props> = ({ articleList, article }) => {
       </Head>
 
       <main className="container">
-        <Header pageTitle="Project Collection" />
+        <Header pageTitle="Project Collection" noImage />
 
         <div className="row">
           <ProjectsNav articleList={articleList} currentArticleId={article.id} />

@@ -18,16 +18,16 @@ const Home: NextPage = () => {
         <section>
           <div className="row my-4">
             <div className="col text-center">
-              <Link href="/cv">
-                <a className="btn btn-primary fs-5">View CV</a>
+              <Link href="/projects">
+                <a className="btn btn-primary fs-5">View Projects</a>
               </Link>
             </div>
           </div>
 
           <div className="row my-4">
             <div className="col text-center">
-              <Link href="/projects">
-                <a className="btn btn-primary fs-5">View Projects</a>
+              <Link href="/cv">
+                <a className="btn btn-primary fs-5">View CV</a>
               </Link>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FC } from "react";
 import { ProjectInfo } from "../utils/projectUtils";
 
 interface Props {
@@ -6,10 +7,12 @@ interface Props {
   currentArticleId?: string;
 }
 
-const ProjectsNav = ({ articleList, currentArticleId }: Props) => {
+const ProjectsNav: FC<Props> = ({ articleList, currentArticleId }) => {
   return (
-    <aside className="col-3 border-end">
-      <h3 className="fs-5 mb-4">Projects</h3>
+    <aside className="col-3 px-4 border-end">
+      <Link href="/projects">
+        <h3 className="fs-5 mb-4 clickable">Projects</h3>
+      </Link>
       <nav>
         <ul className="list-group list-group">
           {articleList.map(article => {

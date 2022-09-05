@@ -1,11 +1,10 @@
 ---
-title: "Two Forms of Pre-rendering"
+title: "Noughts and Crosses"
 order: 1
 ---
 
-Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
+My very first project. You might notice that is isn't even a web project. My first exposue to coding was when I took a free course with Cisco Networking Academy, a programme sponsored by the UK Government to introduce people to career paths in technology. Whilst it wansn't the path I ended up taking, by the end of it I was hooked on what could be achieved by code, and opened my eyes to the to the truth, which was that I can be a part of the technological revolution.
 
-- **Static Generation** is the pre-rendering method that generates the HTML at **build time**. The pre-rendered HTML is then _reused_ on each request.
-- **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.
+Being little more than a simple script, with some frankly unnecessary embellishments, this project is not deployed. But if you want to see it in action, grab the code from it's [GitHub Repo](https://github.com/James-Bosley/noughts-and-crosses#link-info) and either run it locally if you have Python installed or paste the code into an online sandbox editor such as this one by [OpenEDG](https://edube.org/sandbox#link-info).
 
-Importantly, Next.js let's you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
+![Screenshot](TODO)
