@@ -44,10 +44,33 @@ const ProjectsHome: NextPage<Props> = ({ articleList, article }) => {
         const href = link.getAttribute("href") || "";
         link.classList.add("link-info");
         link.setAttribute("href", href.replace(/#link-info/, ""));
-        link.setAttribute("target", "_blank");
+
+        if (link.getAttribute("href")?.includes("http")) {
+          link.setAttribute("target", "_blank");
+        }
+
+        if (link.href.includes("#cheat")) {
+          link.addEventListener("click", e => {
+            e.preventDefault();
+            alert("The authorites have been notified");
+          });
+        }
       }
     }
-  }, []);
+  }, [article]);
+
+  // Adds custom classes and attributes to images parsed in markdown file.
+  useEffect(() => {
+    const images = document.getElementsByTagName("img");
+    for (let image of images) {
+      if (image.getAttribute("src") && image.src.includes("#image-center")) {
+        const src = image.getAttribute("src") || "";
+        image.classList.add("rounded", "mx-auto", "d-block", "my-4", "img-fluid");
+        image.setAttribute("src", src.replace(/#image-center/, ""));
+        image.setAttribute("target", "_blank");
+      }
+    }
+  }, [article]);
 
   return (
     <div>
@@ -57,7 +80,7 @@ const ProjectsHome: NextPage<Props> = ({ articleList, article }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="container">
+      <main className="container mb-5">
         <Header pageTitle="Project Collection" noImage />
 
         <div className="row">

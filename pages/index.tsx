@@ -9,7 +9,6 @@ const Home: NextPage = () => {
       <Head>
         <title>James Bosley | Web Developer</title>
         <meta name="description" content="Portfolio Homepage" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="container">
@@ -33,8 +32,6 @@ const Home: NextPage = () => {
           </div>
         </section>
       </main>
-
-      <footer></footer>
     </div>
   );
 };

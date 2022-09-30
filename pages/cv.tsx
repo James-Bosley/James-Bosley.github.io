@@ -19,12 +19,12 @@ const CV: NextPage = () => {
         </div>
 
         <div className="row my-4 justify-content-center">
-          <div className="col-2 text-center">
+          <div className="col-3 text-center">
             <a href="/CV.pdf" target="_blank" className="btn btn-primary">
               Download PDF
             </a>
           </div>
-          <div className="col-2 text-center">
+          <div className="col-3 text-center">
             <a href="/CV.json" target="_blank" className="btn btn-primary">
               Download JSON
             </a>

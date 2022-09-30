@@ -5,6 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta name="author" content="James Bosley" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <body>
         <Main />

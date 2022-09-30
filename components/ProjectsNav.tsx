@@ -19,7 +19,11 @@ const ProjectsNav: FC<Props> = ({ articleList, currentArticleId }) => {
             return (
               <li
                 key={article.id}
-                className={`list-group-item ${article.id === currentArticleId ? "active" : ""}`}
+                className={`list-group-item ${
+                  article.id === currentArticleId
+                    ? "active"
+                    : article.title === "GoChamp" && "bg-warning"
+                }`}
               >
                 <Link href={`/projects/${article.id}`}>{article.title}</Link>
               </li>
