@@ -18,7 +18,7 @@
 # misc
 .DS_Store
 *.pem
-/public/CV.*
+/public/CV.pdf
 
 # debug
 npm-debug.log*

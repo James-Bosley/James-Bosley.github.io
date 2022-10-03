@@ -15,16 +15,20 @@ const CV: NextPage = () => {
         <Header pageTitle="CV" />
 
         <div className="row my-4">
-          <iframe className="col-9 mx-auto border rounded" src="/CV.json" height="450px"></iframe>
+          <iframe
+            className="col-11 col-sm-10 col-lg-9 mx-auto border rounded"
+            src="/CV.json"
+            height="450px"
+          ></iframe>
         </div>
 
         <div className="row my-4 justify-content-center">
-          <div className="col-3 text-center">
+          <div className="col-9 col-sm-3 text-center mb-2">
             <a href="/CV.pdf" target="_blank" className="btn btn-primary">
               Download PDF
             </a>
           </div>
-          <div className="col-3 text-center">
+          <div className="col-9 col-sm-3 text-center">
             <a href="/CV.json" target="_blank" className="btn btn-primary">
               Download JSON
             </a>

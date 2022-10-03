@@ -33,7 +33,7 @@ const ProjectsHome: NextPage<Props> = ({ articleList }) => {
         <div className="row">
           <ProjectsNav articleList={articleList} />
 
-          <article className="col-9 px-5">
+          <article className="col-0 col-sm-9 px-4 px-sm-5">
             <h3 className="mb-4">My Project Porfolio</h3>
             <p>
               Welcome to my project portfolio. This is a collection of just some of the projects I
@@ -51,9 +51,9 @@ const ProjectsHome: NextPage<Props> = ({ articleList }) => {
             </p>
             <p>
               I really wanted to put a wide range of projects on this site, to showcase my journey
-              as much as what my current skillset includes. It&apos;s easy to look back on many of
-              these now and cringe, but that&apos;s what development is all about, learn and
-              iterate.
+              as a developer as well as demonstrate what my current skillset includes. It&apos;s
+              easy to look back on many of these now and cringe, but that&apos;s what development is
+              all about, learn and iterate.
             </p>
 
             <p>

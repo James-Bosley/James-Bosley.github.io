@@ -3,7 +3,7 @@ title: "Jammming"
 order: 3
 ---
 
-More practice using APIs. This application is part of Codecademy's front end developer pathway, and represents the first site I made that incorporates user authentication, this time my implemeting an OAuth 2 implicit grant flow with Spotify's API. This site allows a user to sign into their Spotify account, search for songs either by track name or artist name and save them to a playlist that will persist in their account.
+More practice using APIs. This application is part of Codecademy's front end developer pathway and represents the first site I made that incorporates user authentication, this time my implementing an OAuth 2 implicit grant flow with Spotify's API. This site allows a user to sign into their Spotify account, search for songs either by track name or artist name and save them to a playlist that will persist in their account.
 
 ![Screenshot](/images/jammming-img-1.jpg#image-center)
 ![Screenshot](/images/jammming-img-2.jpg#image-center)

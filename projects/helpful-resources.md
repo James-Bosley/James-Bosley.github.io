@@ -3,11 +3,11 @@ title: "Helpful Resources"
 order: 6
 ---
 
-This was a project convcieved duing our second hackathon at BrainStation. This was a group project where the main learning aim was to develop our Git workflow skills, ensuring that we could work together making a purposeful application without breaking it by overwriting each other changes.
+This was a project conceived during our second hackathon at BrainStation. This was a group project where the main learning aim was to develop our Git workflow skills, ensuring that we could work together to make a purposeful application whilst successfully integrating our code with that of the rest team during the work period.
 
-The site collates a large quantity of resources that were useful to us during our learning journey, with the intended purpose of making it easier for all students to look back and find information they need at a glance.
+The site collates a large number of resources that were useful to us during our learning journey, with the intended purpose of making it easier for all students to look back and find the information they need at a glance.
 
-Credit to [Andrada](https://github.com/ZanfiracheAndrada#link-info) and [Lidija](https://github.com/lcelik#link-info), who were my co-contributers on the project.
+Credit to [Andrada](https://github.com/ZanfiracheAndrada#link-info) and [Lidija](https://github.com/lcelik#link-info), who were my co-contributors on the project.
 
 ![Screenshot](/images/helpful-resources-img-1.jpg#image-center)
 ![Screenshot](/images/helpful-resources-img-2.jpg#image-center)

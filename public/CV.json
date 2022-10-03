@@ -1,0 +1,103 @@
+{
+  "personal-details": {
+    "first-name": "James",
+    "last-name": "Bosley",
+    "location": "London",
+    "contact": {
+      "email": "james_bosley@hotmail.co.uk"
+    },
+    "urls": {
+      "linkedIn": "https://www.linkedin.com/in/james-a-bosley/",
+      "github": "https://github.com/james-bosley",
+      "portfolio": "https://james-bosley.github.io",
+      "detailed-cv": "https://james-bosley.github.io/cv.pdf"
+    }
+  },
+  "skills": [
+    "HTML/ HTML5",
+    "CSS/ SASS",
+    "JavaScript",
+    "TypeScript",
+    "React including Hooks",
+    "SQL",
+    "APIs and Web APIs",
+    "JSON",
+    "GitHub",
+    "Document Object Model (DOM)",
+    "OAuth",
+    "Node/ Express",
+    "Agile Development"
+  ],
+  "projects": [
+    {
+      "title": "Hello World",
+      "description": "My first working project.",
+      "portfolio-url": "https://james-bosley.github.io/projects/hello-world",
+      "hosted-url": null,
+      "github-url": "https://github.com/James-Bosley/noughts-and-crosses"
+    },
+    {
+      "title": "Covid Query",
+      "description": "Uses UK Government API to search for and retrieve covid-19 statistics.",
+      "portfolio-url": "https://james-bosley.github.io/projects/covid-query",
+      "hosted-url": "https://covid-query.surge.sh",
+      "github-url": "https://github.com/James-Bosley/covid-query"
+    },
+    {
+      "title": "Jammming",
+      "description": "Music playlist site utilising Spotify API.",
+      "portfolio-url": "https://james-bosley.github.io/projects/jammming",
+      "hosted-url": null,
+      "github-url": "https://github.com/James-Bosley/jammming"
+    },
+    {
+      "title": "My Calorie Mate",
+      "description": "Application to track calorie intake and usage using natural language search.",
+      "portfolio-url": "https://james-bosley.github.io/projects/calorie-mate",
+      "hosted-url": null,
+      "github-url": "https://github.com/James-Bosley/api-hackathon"
+    },
+    {
+      "title": "BrainFlix",
+      "description": "A responsively designed and interactive YouTube mockup.",
+      "portfolio-url": "https://james-bosley.github.io/projects/brainflix",
+      "hosted-url": null,
+      "github-url": null
+    },
+    {
+      "title": "Helpful Resources - Hackathon",
+      "description": "Index of helpful resources for bootcamp atendees.",
+      "portfolio-url": "https://james-bosley.github.io/projects/helpful-resources",
+      "hosted-url": null,
+      "github-url": [
+        "https://github.com/James-Bosley/helpful-resources",
+        "https://github.com/James-Bosley/helpful-resources-api"
+      ]
+    },
+    {
+      "title": "InStock",
+      "description": "Inventory management system.",
+      "portfolio-url": "https://james-bosley.github.io/projects/instock",
+      "hosted-url": null,
+      "github-url": null
+    },
+    {
+      "title": "Canada Goose - Sustainability Hackathon",
+      "description": "Microsite highligting sustainable initiatives by client company.",
+      "portfolio-url": "https://james-bosley.github.io/projects/canada-goose",
+      "hosted-url": "https://sustainable-goose.surge.sh/sustainable",
+      "github-url": "https://github.com/James-Bosley/canada-goose-client"
+    },
+    {
+      "title": "GoChamp",
+      "description": "Sports game selection and performance insight tool.",
+      "portfolio-url": "https://james-bosley.github.io/projects/gochamp",
+      "hosted-url": "https://www.gochamp.co.uk",
+      "github-url": [
+        "https://github.com/James-Bosley/pegasus",
+        "https://github.com/James-Bosley/pegasus-api"
+      ]
+    }
+  ],
+  "profile": "An experienced supermarket manager turned software developer who can build applications from the ground up using an array of technologies. I am passionate about software architecture and design, and I am keen to continue expanding my knowledge, learning about new technologies and languages. I am tuned to the business need to deliver high quality solutions and applications using Agile methodology. Coupled with my previous experience I feel I will be an asset to any organisation looking to employ a junior developer."
+}

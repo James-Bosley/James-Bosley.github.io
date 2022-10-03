@@ -12,4 +12,4 @@ On a second page is a mocked upload page where users can upload new content, alt
 
 ![Screenshot](/images/brainflix-img-2.jpg#image-center)
 
-Unfortuately due to contractual obligations with BrainStation, I am unable to share my source code, or publicly deploy the application. If you happen to be a current student however, you may find the [next project](/projects/helpful-resources#link-info) in this list benefical, or if you just want to [cheat](/all-the-answers#link-info#cheat).
+Unfortunately due to contractual obligations with BrainStation, I am unable to share my source code, or publicly deploy the application. If you happen to be a current student, however, you may find the [next project](/projects/helpful-resources#link-info) in this list beneficial, or if you just want to [cheat](/all-the-answers#link-info#cheat).
