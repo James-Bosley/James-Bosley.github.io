@@ -1,6 +1,6 @@
 ---
 title: "Covid Query"
-order: 2
+order: 8
 ---
 
 This was an early project I conceived to practice consuming third party APIs, and given the news at the time when I was learning, a Covid statistics application was a natural choice. It makes use of an API provided publicly by the UK Government and can be used to narrow down case, death and vaccination rates on a national basis, on a country basis and on a UTLA (upper tier local authority) basis. You can still visit [Covid Query](https://covid-query.surge.sh#link-info).

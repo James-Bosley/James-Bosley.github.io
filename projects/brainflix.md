@@ -7,8 +7,8 @@ Another BrainStation project, possibly based on a well known video streaming ser
 
 ![Screenshot](/images/brainflix-img-1.jpg#image-center)
 
-The site allows users to search for uploaded video content to be searched and commented on by users, who can also increment the likes and views. The video controls have also been created from scratch and use the video element API on the DOM.
-On a second page is a mocked upload page where users can upload new content, although this does not facilitate the actual video upload the thumbnail image is fully customisable along with the title and description.
+The site allows users to search for uploaded video content and comments made by users, who can also increment the likes and views. The video controls have also been created from scratch and use the video element API on the DOM.
+The second page is a mocked upload page, although this does not facilitate the actual video upload, the thumbnail image is fully customisable along with the title and description.
 
 ![Screenshot](/images/brainflix-img-2.jpg#image-center)
 

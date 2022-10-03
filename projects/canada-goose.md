@@ -1,11 +1,11 @@
 ---
 title: "Canada Goose"
-order: 8
+order: 2
 ---
 
-This was our third and final hackathon at BrainStation. The benefit of this project to my growth as a developer was not only because it was for a real-life client - Canada Goose, but it also gave us the opportunity to work collaboratively across disciplines with our colleagues completing the UX design bootcamp. It would be remiss of me not to also mention that we won!
+This was our third and final hackathon at BrainStation. The benefit of this project to my growth as a developer was not only because it was for a real-life client - Canada Goose, but it also gave us the opportunity to work collaboratively across disciplines with our colleagues completing the UX design bootcamp. It would be remiss of me not to mention the client selected us as the winners having delivered the most innovative solution!
 
-The aim was to create a new and innovative online offering that highlighted Canada Goose's increased focus on environmental sustainability. Our angle was to create a new rental service for the brand's sustainable range which would not only increase circulation and visibility of those products, thereby maintaining brand awareness and loyalty, but also attempt to reduce waste through re-use.
+The aim was to create a new online offering highlighting Canada Goose's increased focus on environmental sustainability. Our angle was to create a rental service for the brand's sustainable range which would not only increase circulation and visibility of those products, thereby maintaining brand awareness and loyalty, but also reduce waste through re-use.
 
 ![Screenshot](/images/canada-goose-img-1.jpg#image-center)
 
