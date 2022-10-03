@@ -86,7 +86,7 @@ const ProjectsHome: NextPage<Props> = ({ articleList, article }) => {
         <div className="row">
           <ProjectsNav articleList={articleList} currentArticleId={article.id} />
 
-          <article className="col-12 col-md-9 px-4 px-sm-5">
+          <article className="col-12 col-md-9 px-4 px-md-5">
             <h3 className="mb-4">{article.title}</h3>
             <p dangerouslySetInnerHTML={{ __html: article.contentHtml }}></p>
           </article>

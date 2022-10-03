@@ -15,13 +15,13 @@ const Home: NextPage = () => {
         <Header home />
 
         <section className="row my-4 justify-content-center">
-          <div className="col-9 col-sm-2 text-center mb-4">
+          <div className="col-9 col-sm-4 col-lg-2 text-center mb-4">
             <Link href="/projects">
               <a className="btn btn-primary fs-5">Projects</a>
             </Link>
           </div>
 
-          <div className="col-9 col-sm-2 text-center">
+          <div className="col-9 col-sm-4 col-lg-2 text-center">
             <Link href="/cv">
               <a className="btn btn-primary fs-5">View CV</a>
             </Link>

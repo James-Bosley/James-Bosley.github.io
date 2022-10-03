@@ -33,7 +33,7 @@ const ProjectsHome: NextPage<Props> = ({ articleList }) => {
         <div className="row">
           <ProjectsNav articleList={articleList} />
 
-          <article className="col-0 col-sm-9 px-4 px-sm-5">
+          <article className="col-0 col-md-9 px-4 px-md-5">
             <h3 className="mb-4">My Project Porfolio</h3>
             <p>
               Welcome to my project portfolio. This is a collection of just some of the projects I

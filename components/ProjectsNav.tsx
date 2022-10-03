@@ -9,7 +9,7 @@ interface Props {
 
 const ProjectsNav: FC<Props> = ({ articleList, currentArticleId }) => {
   return (
-    <aside className="col-12 col-md-3 px-4 mb-4 border-end">
+    <aside className="col-12 col-md-3 px-4 mb-4">
       <Link href="/projects">
         <h3 className="fs-5 mb-4 clickable">Projects</h3>
       </Link>
